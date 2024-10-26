@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/901021/1498255/2.50/64/2/Connector/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;High Density D-Sub 62pin angled female with board locks, PL3, 4-40UNC threading&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="09564527612">
+<description>&lt;b&gt;09564527612-3&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0.000" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="2" x="2.410" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="3" x="4.820" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="4" x="7.230" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="5" x="9.640" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="6" x="12.050" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="7" x="14.460" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="8" x="16.870" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="9" x="19.280" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="10" x="21.690" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="11" x="24.100" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="12" x="26.510" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="13" x="28.920" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="14" x="31.330" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="15" x="33.740" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="16" x="36.150" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="17" x="38.560" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="18" x="40.970" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="19" x="43.380" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="20" x="45.790" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="21" x="48.200" y="0.000" drill="1.05" diameter="1.575"/>
+<pad name="22" x="-1.205" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="23" x="1.205" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="24" x="3.615" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="25" x="6.025" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="26" x="8.435" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="27" x="10.845" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="28" x="13.255" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="29" x="15.665" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="30" x="18.075" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="31" x="20.485" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="32" x="22.895" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="33" x="25.305" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="34" x="27.715" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="35" x="30.125" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="36" x="32.535" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="37" x="34.945" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="38" x="37.355" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="39" x="39.765" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="40" x="42.175" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="41" x="44.585" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="42" x="46.995" y="2.540" drill="1.05" diameter="1.575"/>
+<pad name="43" x="0.000" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="44" x="2.410" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="45" x="4.820" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="46" x="7.230" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="47" x="9.640" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="48" x="12.050" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="49" x="14.460" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="50" x="16.870" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="51" x="19.280" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="52" x="21.690" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="53" x="24.100" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="54" x="26.510" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="55" x="28.920" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="56" x="31.330" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="57" x="33.740" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="58" x="36.150" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="59" x="38.560" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="60" x="40.970" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="61" x="43.380" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="62" x="45.790" y="5.080" drill="1.05" diameter="1.575"/>
+<pad name="MH1" x="-8.253" y="2.540" drill="3.45" diameter="5.175"/>
+<pad name="MH2" x="55.248" y="2.540" drill="3.45" diameter="5.175"/>
+<text x="23.497" y="8.310" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="23.497" y="8.310" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-11.203" y1="13.97" x2="58.198" y2="13.97" width="0.2" layer="51"/>
+<wire x1="58.198" y1="13.97" x2="58.198" y2="-2.23" width="0.2" layer="51"/>
+<wire x1="58.198" y1="-2.23" x2="-11.203" y2="-2.23" width="0.2" layer="51"/>
+<wire x1="-11.203" y1="-2.23" x2="-11.203" y2="13.97" width="0.2" layer="51"/>
+<wire x1="-11.203" y1="13.97" x2="58.198" y2="13.97" width="0.1" layer="21"/>
+<wire x1="58.198" y1="13.97" x2="58.198" y2="-2.23" width="0.1" layer="21"/>
+<wire x1="58.198" y1="-2.23" x2="-11.203" y2="-2.23" width="0.1" layer="21"/>
+<wire x1="-11.203" y1="-2.23" x2="-11.203" y2="13.97" width="0.1" layer="21"/>
+<wire x1="-12.203" y1="20.77" x2="59.198" y2="20.77" width="0.1" layer="51"/>
+<wire x1="59.198" y1="20.77" x2="59.198" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="59.198" y1="-4.15" x2="-12.203" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-12.203" y1="-4.15" x2="-12.203" y2="20.77" width="0.1" layer="51"/>
+<wire x1="-3.902" y1="13.97" x2="-3.902" y2="19.77" width="0.2" layer="51"/>
+<wire x1="-3.902" y1="19.77" x2="50.897" y2="19.77" width="0.2" layer="51"/>
+<wire x1="50.897" y1="19.77" x2="50.897" y2="13.97" width="0.2" layer="51"/>
+<wire x1="-3.902" y1="13.97" x2="-3.902" y2="19.77" width="0.1" layer="21"/>
+<wire x1="-3.902" y1="19.77" x2="50.897" y2="19.77" width="0.1" layer="21"/>
+<wire x1="50.897" y1="19.77" x2="50.897" y2="13.97" width="0.1" layer="21"/>
+<wire x1="0" y1="-3" x2="0" y2="-3" width="0.3" layer="21"/>
+<wire x1="0.000" y1="-3.000" x2="0.300" y2="-3.000" width="0.3" layer="21" curve="180.0"/>
+<wire x1="0.3" y1="-3" x2="0.3" y2="-3" width="0.3" layer="21"/>
+<wire x1="0.300" y1="-3.000" x2="0.000" y2="-3.000" width="0.3" layer="21" curve="180.0"/>
+</package>
+</packages>
+<symbols>
+<symbol name="09564527612">
+<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-81.28" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-81.28" x2="5.08" y2="-81.28" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-81.28" width="0.254" layer="94"/>
+<text x="21.59" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="21.59" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="2" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="3" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="4" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="5" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="6" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="7" x="0" y="-15.24" length="middle" direction="io" rot="R0"/>
+<pin name="8" x="0" y="-17.78" length="middle" direction="io" rot="R0"/>
+<pin name="9" x="0" y="-20.32" length="middle" direction="io" rot="R0"/>
+<pin name="10" x="0" y="-22.86" length="middle" direction="io" rot="R0"/>
+<pin name="11" x="0" y="-25.4" length="middle" direction="io" rot="R0"/>
+<pin name="12" x="0" y="-27.94" length="middle" direction="io" rot="R0"/>
+<pin name="13" x="0" y="-30.48" length="middle" direction="io" rot="R0"/>
+<pin name="14" x="0" y="-33.02" length="middle" direction="io" rot="R0"/>
+<pin name="15" x="0" y="-35.56" length="middle" direction="io" rot="R0"/>
+<pin name="16" x="0" y="-38.1" length="middle" direction="io" rot="R0"/>
+<pin name="17" x="0" y="-40.64" length="middle" direction="io" rot="R0"/>
+<pin name="18" x="0" y="-43.18" length="middle" direction="io" rot="R0"/>
+<pin name="19" x="0" y="-45.72" length="middle" direction="io" rot="R0"/>
+<pin name="20" x="0" y="-48.26" length="middle" direction="io" rot="R0"/>
+<pin name="21" x="0" y="-50.8" length="middle" direction="io" rot="R0"/>
+<pin name="22" x="0" y="-53.34" length="middle" direction="io" rot="R0"/>
+<pin name="23" x="0" y="-55.88" length="middle" direction="io" rot="R0"/>
+<pin name="24" x="0" y="-58.42" length="middle" direction="io" rot="R0"/>
+<pin name="25" x="0" y="-60.96" length="middle" direction="io" rot="R0"/>
+<pin name="26" x="0" y="-63.5" length="middle" direction="io" rot="R0"/>
+<pin name="27" x="0" y="-66.04" length="middle" direction="io" rot="R0"/>
+<pin name="28" x="0" y="-68.58" length="middle" direction="io" rot="R0"/>
+<pin name="29" x="0" y="-71.12" length="middle" direction="io" rot="R0"/>
+<pin name="30" x="0" y="-73.66" length="middle" direction="io" rot="R0"/>
+<pin name="31" x="0" y="-76.2" length="middle" direction="io" rot="R0"/>
+<pin name="32" x="0" y="-78.74" length="middle" direction="io" rot="R0"/>
+<pin name="33" x="25.4" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="34" x="25.4" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="35" x="25.4" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="36" x="25.4" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="37" x="25.4" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="38" x="25.4" y="-12.7" length="middle" direction="io" rot="R180"/>
+<pin name="39" x="25.4" y="-15.24" length="middle" direction="io" rot="R180"/>
+<pin name="40" x="25.4" y="-17.78" length="middle" direction="io" rot="R180"/>
+<pin name="41" x="25.4" y="-20.32" length="middle" direction="io" rot="R180"/>
+<pin name="42" x="25.4" y="-22.86" length="middle" direction="io" rot="R180"/>
+<pin name="43" x="25.4" y="-25.4" length="middle" direction="io" rot="R180"/>
+<pin name="44" x="25.4" y="-27.94" length="middle" direction="io" rot="R180"/>
+<pin name="45" x="25.4" y="-30.48" length="middle" direction="io" rot="R180"/>
+<pin name="46" x="25.4" y="-33.02" length="middle" direction="io" rot="R180"/>
+<pin name="47" x="25.4" y="-35.56" length="middle" direction="io" rot="R180"/>
+<pin name="48" x="25.4" y="-38.1" length="middle" direction="io" rot="R180"/>
+<pin name="49" x="25.4" y="-40.64" length="middle" direction="io" rot="R180"/>
+<pin name="50" x="25.4" y="-43.18" length="middle" direction="io" rot="R180"/>
+<pin name="51" x="25.4" y="-45.72" length="middle" direction="io" rot="R180"/>
+<pin name="52" x="25.4" y="-48.26" length="middle" direction="io" rot="R180"/>
+<pin name="53" x="25.4" y="-50.8" length="middle" direction="io" rot="R180"/>
+<pin name="54" x="25.4" y="-53.34" length="middle" direction="io" rot="R180"/>
+<pin name="55" x="25.4" y="-55.88" length="middle" direction="io" rot="R180"/>
+<pin name="56" x="25.4" y="-58.42" length="middle" direction="io" rot="R180"/>
+<pin name="57" x="25.4" y="-60.96" length="middle" direction="io" rot="R180"/>
+<pin name="58" x="25.4" y="-63.5" length="middle" direction="io" rot="R180"/>
+<pin name="59" x="25.4" y="-66.04" length="middle" direction="io" rot="R180"/>
+<pin name="60" x="25.4" y="-68.58" length="middle" direction="io" rot="R180"/>
+<pin name="61" x="25.4" y="-71.12" length="middle" direction="io" rot="R180"/>
+<pin name="62" x="25.4" y="-73.66" length="middle" direction="io" rot="R180"/>
+<pin name="MH1" x="25.4" y="-76.2" length="middle" direction="io" rot="R180"/>
+<pin name="MH2" x="25.4" y="-78.74" length="middle" direction="io" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="09564527612" prefix="J">
+<description>&lt;b&gt;High Density D-Sub 62pin angled female with board locks, PL3, 4-40UNC threading&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://b2b.harting.com/files/download/PRD/PDF_DS/PDF_DS_09564527612_EN.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="09564527612" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="09564527612">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="38" pad="38"/>
+<connect gate="G$1" pin="39" pad="39"/>
+<connect gate="G$1" pin="40" pad="40"/>
+<connect gate="G$1" pin="41" pad="41"/>
+<connect gate="G$1" pin="42" pad="42"/>
+<connect gate="G$1" pin="43" pad="43"/>
+<connect gate="G$1" pin="44" pad="44"/>
+<connect gate="G$1" pin="45" pad="45"/>
+<connect gate="G$1" pin="46" pad="46"/>
+<connect gate="G$1" pin="47" pad="47"/>
+<connect gate="G$1" pin="48" pad="48"/>
+<connect gate="G$1" pin="49" pad="49"/>
+<connect gate="G$1" pin="50" pad="50"/>
+<connect gate="G$1" pin="51" pad="51"/>
+<connect gate="G$1" pin="52" pad="52"/>
+<connect gate="G$1" pin="53" pad="53"/>
+<connect gate="G$1" pin="54" pad="54"/>
+<connect gate="G$1" pin="55" pad="55"/>
+<connect gate="G$1" pin="56" pad="56"/>
+<connect gate="G$1" pin="57" pad="57"/>
+<connect gate="G$1" pin="58" pad="58"/>
+<connect gate="G$1" pin="59" pad="59"/>
+<connect gate="G$1" pin="60" pad="60"/>
+<connect gate="G$1" pin="61" pad="61"/>
+<connect gate="G$1" pin="62" pad="62"/>
+<connect gate="G$1" pin="MH1" pad="MH1"/>
+<connect gate="G$1" pin="MH2" pad="MH2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Manufacturer_Name" value="HARTING" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="09564527612" constant="no"/>
+<attribute name="Mouser_Part_Number" value="617-09-56-452-7612" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/HARTING/09564527612?qs=qa49y27LPCF1lnBrRUFxoA%3D%3D" constant="no"/>
+<attribute name="Arrow_Part_Number" value="09564527612" constant="no"/>
+<attribute name="Arrow_Price-Stock" value="https://www.arrow.com/en/products/09564527612/harting?region=nac" constant="no"/>
+<attribute name="Description" value="High Density D-Sub 62pin angled female with board locks, PL3, 4-40UNC threading" constant="no"/>
+<attribute name="Height" value="12.55mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

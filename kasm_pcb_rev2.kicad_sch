@@ -1,0 +1,166 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b88f3414-095b-412c-ac5e-63ceec91c7e6")
+	(paper "B")
+	(title_block
+		(title "KASM Actuator PCBA Rev2")
+		(date "2024-09-28")
+		(rev "2")
+	)
+	(lib_symbols)
+	(sheet
+		(at 228.6 25.4)
+		(size 63.5 38.1)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2d3f9a94-2f4e-4d4f-b431-cd37d3bb57a3")
+		(property "Sheetname" "Actuators"
+			(at 242.57 45.466 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "actuators.kicad_sch"
+			(at 228.6 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kasm_pcb_rev2"
+				(path "/b88f3414-095b-412c-ac5e-63ceec91c7e6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 25.4)
+		(size 63.5 38.1)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b276530-5987-4e99-95b5-b3ce39da57f0")
+		(property "Sheetname" "Eddy Current Sensors"
+			(at 325.374 45.974 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eddy_current_sensors.kicad_sch"
+			(at 317.5 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kasm_pcb_rev2"
+				(path "/b88f3414-095b-412c-ac5e-63ceec91c7e6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 25.4)
+		(size 63.5 38.1)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c2d3862-69a3-47a2-8b84-f8c528b2378d")
+		(property "Sheetname" "Power"
+			(at 70.358 45.212 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 50.8 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kasm_pcb_rev2"
+				(path "/b88f3414-095b-412c-ac5e-63ceec91c7e6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 25.4)
+		(size 63.5 38.1)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab06fd63-42dd-4255-9311-93f69d8db4c1")
+		(property "Sheetname" "MCU"
+			(at 161.036 47.244 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 139.7 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kasm_pcb_rev2"
+				(path "/b88f3414-095b-412c-ac5e-63ceec91c7e6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

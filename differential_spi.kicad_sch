@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e8efdf95-7a98-4dde-9b02-64355d06ebc9")
+	(paper "B")
+	(title_block
+		(title "KASM Actuator PCBA Rev2")
+		(date "2024-09-28")
+		(rev "2")
+	)
+	(lib_symbols)
+)
