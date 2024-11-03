@@ -2154,9 +2154,9 @@
 		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2254,8 +2254,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2274,9 +2274,9 @@
 		)
 		(symbol "power:+1V8"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2374,8 +2374,8 @@
 			(symbol "+1V8_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+1V8"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2394,9 +2394,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2494,8 +2494,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2514,9 +2514,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2590,8 +2590,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2673,7 +2673,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3018,6 +3018,12 @@
 		(uuid "d9de98cd-827c-4be4-af3b-0a6afb3173f9")
 	)
 	(junction
+		(at 297.18 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcd01017-09be-4da9-9c94-c864b886ed96")
+	)
+	(junction
 		(at 111.76 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3335,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 62.23) (xy 278.13 63.5)
+			(xy 297.18 62.23) (xy 297.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3725,6 +3731,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 85.09) (xy 297.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a00fff-86d5-405a-9b47-d81d8e995808")
+	)
+	(wire
+		(pts
 			(xy 143.51 132.08) (xy 143.51 133.35)
 		)
 		(stroke
@@ -3752,6 +3768,16 @@
 			(type default)
 		)
 		(uuid "64628771-538b-4a7b-b17a-bd75c7456bf5")
+	)
+	(wire
+		(pts
+			(xy 297.18 63.5) (xy 297.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dc4889-7dc1-4c51-8e3b-745a62975b6b")
 	)
 	(wire
 		(pts
@@ -4022,6 +4048,16 @@
 			(type default)
 		)
 		(uuid "89b02001-8549-48b0-b2a8-02fde34ef8bc")
+	)
+	(wire
+		(pts
+			(xy 297.18 63.5) (xy 278.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f54142-f2a4-4e25-a4dc-8cef63ec5230")
 	)
 	(wire
 		(pts
@@ -4685,6 +4721,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 74.93) (xy 297.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8eea368-907b-4bf0-9e58-6a1a87fc46bf")
+	)
+	(wire
+		(pts
 			(xy 264.16 156.21) (xy 300.99 156.21)
 		)
 		(stroke
@@ -4881,7 +4927,7 @@
 	)
 	(rectangle
 		(start 96.52 41.91)
-		(end 298.45 99.06)
+		(end 317.5 99.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -5169,7 +5215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 58.42 0)
 			(effects
 				(font
@@ -5235,7 +5281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 105.41 129.54 0)
 			(effects
 				(font
@@ -5761,7 +5807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 323.85 153.67 0)
 			(effects
 				(font
@@ -6436,7 +6482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 334.01 153.67 0)
 			(effects
 				(font
@@ -6452,6 +6498,85 @@
 			(project "kasm_pcb_rev2"
 				(path "/b88f3414-095b-412c-ac5e-63ceec91c7e6/9c2d3862-69a3-47a2-8b84-f8c528b2378d"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 297.18 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45c743ae-b0da-4405-a8b1-c589752feeef")
+		(property "Reference" "D5"
+			(at 300.101 68.9553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_GREEN"
+			(at 300.101 71.3796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 297.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 297.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965804"
+			(at 297.18 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fac95250-bbb9-43f4-bc18-b0e409c4cf43")
+		)
+		(pin "2"
+			(uuid "832d43eb-3c6e-4cc1-ac36-617174c7325e")
+		)
+		(instances
+			(project "kasm_pcb_rev2"
+				(path "/b88f3414-095b-412c-ac5e-63ceec91c7e6/9c2d3862-69a3-47a2-8b84-f8c528b2378d"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6501,7 +6626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 248.92 179.07 0)
 			(effects
 				(font
@@ -6567,7 +6692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 265.43 73.66 0)
 			(effects
 				(font
@@ -6777,7 +6902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 52.07 71.12 0)
 			(effects
 				(font
@@ -7080,7 +7205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 160.02 0)
 			(effects
 				(font
@@ -7213,7 +7338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 354.33 144.78 0)
 			(effects
 				(font
@@ -7279,7 +7404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 190.5 157.48 0)
 			(effects
 				(font
@@ -7345,7 +7470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 255.27 83.82 0)
 			(effects
 				(font
@@ -7441,6 +7566,72 @@
 			(project "kasm_pcb_rev2"
 				(path "/b88f3414-095b-412c-ac5e-63ceec91c7e6/9c2d3862-69a3-47a2-8b84-f8c528b2378d"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 297.18 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "742e42ff-10ae-4c18-822b-cbea2bf86268")
+		(property "Reference" "#PWR072"
+			(at 297.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 297.18 89.2231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 297.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1a09bc3-14a8-4cd4-9a2a-6dc23547e97b")
+		)
+		(instances
+			(project "kasm_pcb_rev2"
+				(path "/b88f3414-095b-412c-ac5e-63ceec91c7e6/9c2d3862-69a3-47a2-8b84-f8c528b2378d"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7570,7 +7761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 278.13 73.66 0)
 			(effects
 				(font
@@ -7779,7 +7970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 255.27 165.1 0)
 			(effects
 				(font
@@ -8003,7 +8194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 203.2 76.2 0)
 			(effects
 				(font
@@ -8069,7 +8260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 186.69 78.74 0)
 			(effects
 				(font
@@ -8235,7 +8426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 344.17 153.67 0)
 			(effects
 				(font
@@ -8301,7 +8492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 76.2 0)
 			(effects
 				(font
@@ -8445,7 +8636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 111.76 55.88 0)
 			(effects
 				(font
@@ -8511,7 +8702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 254 34.29 0)
 			(effects
 				(font
@@ -8613,7 +8804,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 278.13 62.23 0)
+		(at 297.18 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8622,7 +8813,7 @@
 		(fields_autoplaced yes)
 		(uuid "994baa91-4ee9-4404-bcd2-c961bd6f72ea")
 		(property "Reference" "#PWR04"
-			(at 278.13 66.04 0)
+			(at 297.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8822,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 278.13 58.0969 0)
+			(at 297.18 58.0969 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 62.23 0)
+			(at 297.18 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +8839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 62.23 0)
+			(at 297.18 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,8 +8847,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 278.13 62.23 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 297.18 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,6 +8863,85 @@
 			(project "kasm_pcb_rev2"
 				(path "/b88f3414-095b-412c-ac5e-63ceec91c7e6/9c2d3862-69a3-47a2-8b84-f8c528b2378d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 297.18 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a61db7f-90d2-458b-aacf-992e7af4b6ec")
+		(property "Reference" "R18"
+			(at 298.831 77.5278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 298.831 79.9521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 298.196 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98836"
+			(at 297.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5e6f7f1-6e73-40f3-82bd-54fef57b72c0")
+		)
+		(pin "2"
+			(uuid "4566d5df-89a3-4449-a1c8-67c9f477628a")
+		)
+		(instances
+			(project "kasm_pcb_rev2"
+				(path "/b88f3414-095b-412c-ac5e-63ceec91c7e6/9c2d3862-69a3-47a2-8b84-f8c528b2378d"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8722,7 +8992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 111.76 69.85 0)
 			(effects
 				(font
@@ -8868,7 +9138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -8935,7 +9205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 50.8 57.15 0)
 			(effects
 				(font
@@ -9159,7 +9429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 105.41 143.51 0)
 			(effects
 				(font
@@ -9461,7 +9731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 325.12 116.84 0)
 			(effects
 				(font
@@ -9526,7 +9796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 210.82 162.56 0)
 			(effects
 				(font
@@ -9592,7 +9862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 354.33 153.67 0)
 			(effects
 				(font
@@ -9814,7 +10084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 229.87 73.66 0)
 			(effects
 				(font
@@ -10414,7 +10684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 52.07 53.34 0)
 			(effects
 				(font
@@ -10724,7 +10994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 62.23 176.53 0)
 			(effects
 				(font
@@ -10790,7 +11060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 313.69 153.67 0)
 			(effects
 				(font
@@ -10855,7 +11125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 226.06 166.37 0)
 			(effects
 				(font
@@ -11106,7 +11376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 300.99 166.37 0)
 			(effects
 				(font
