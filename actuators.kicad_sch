@@ -5563,22 +5563,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "68e3fbba-20e5-494f-aad5-aa56a7cb6f2d")
+			(uuid "68e3fbba-20e5-494f-aad5-aa56a7cb6f2e")
 		)
 		(pin "4"
-			(uuid "f38ef381-6772-4f0c-a60e-7cef48c03816")
+			(uuid "f38ef381-6772-4f0c-a60e-7cef48c03817")
 		)
 		(pin "3"
-			(uuid "71ad8a2a-dd40-4476-81d5-0b099df63c7d")
+			(uuid "71ad8a2a-dd40-4476-81d5-0b099df63c7e")
 		)
 		(pin "2"
-			(uuid "38168b87-43f2-4093-877a-99dee008bd8e")
+			(uuid "38168b87-43f2-4093-877a-99dee008bd8f")
 		)
 		(pin "6"
-			(uuid "71d57b42-bb08-47ed-bb87-2299c472385f")
+			(uuid "71d57b42-bb08-47ed-bb87-2299c4723860")
 		)
 		(pin "5"
-			(uuid "a145d470-ecf6-4f52-bc6a-069e8dca780b")
+			(uuid "a145d470-ecf6-4f52-bc6a-069e8dca780c")
 		)
 		(instances
 			(project "kasm_pcb_rev2"
@@ -5785,22 +5785,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "68e3fbba-20e5-494f-aad5-aa56a7cb6f2d")
+			(uuid "68e3fbba-20e5-494f-aad5-aa56a7cb6f2f")
 		)
 		(pin "4"
-			(uuid "f38ef381-6772-4f0c-a60e-7cef48c03816")
+			(uuid "f38ef381-6772-4f0c-a60e-7cef48c03818")
 		)
 		(pin "3"
-			(uuid "71ad8a2a-dd40-4476-81d5-0b099df63c7d")
+			(uuid "71ad8a2a-dd40-4476-81d5-0b099df63c7f")
 		)
 		(pin "2"
-			(uuid "38168b87-43f2-4093-877a-99dee008bd8e")
+			(uuid "38168b87-43f2-4093-877a-99dee008bd90")
 		)
 		(pin "6"
-			(uuid "71d57b42-bb08-47ed-bb87-2299c472385f")
+			(uuid "71d57b42-bb08-47ed-bb87-2299c4723861")
 		)
 		(pin "5"
-			(uuid "a145d470-ecf6-4f52-bc6a-069e8dca780b")
+			(uuid "a145d470-ecf6-4f52-bc6a-069e8dca780d")
 		)
 		(instances
 			(project "kasm_pcb_rev2"

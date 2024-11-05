@@ -3324,16 +3324,6 @@
 		)
 		(uuid "9453b829-4ce7-4fba-aff4-052a7136be6c")
 	)
-	(text "DO WE NEED RESONATING CAPS ACROSS THE 2 INDUCTOR PINS??????\n\nNeed to check coil with impedance analyzer"
-		(exclude_from_sim no)
-		(at 167.386 170.688 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "a2f01088-afda-4963-bd3e-614fa1ef324f")
-	)
 	(text "Pull Shutdown Low \n--> Chip enabled"
 		(exclude_from_sim no)
 		(at 284.988 117.856 0)
