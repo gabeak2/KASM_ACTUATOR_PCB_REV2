@@ -1,0 +1,1 @@
+A PCBA to drive voice coil actuators at Keck and University of Hawaii at Hilo.  Work done as part of my MS ECE Thesis at Johns Hopkins.  Please enjoy this beautiful glamor shot of my boards ![Uploading image.png…]()
