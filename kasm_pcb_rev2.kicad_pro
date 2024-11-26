@@ -496,7 +496,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "kasm_pcb_rev2.step",
       "svg": "",
       "vrml": ""
     },

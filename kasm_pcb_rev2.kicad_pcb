@@ -52788,7 +52788,7 @@
 			)
 		)
 		(property "Value" "LED_GREEN"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "ea824a7e-a0de-4568-9a5c-b979e8a1a20e")
 			(effects
@@ -52973,7 +52973,7 @@
 			(uuid "aa4309c0-40fc-4097-b801-786a7ba58e95")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "d619d0cc-7881-488b-9fdd-1b474f1ca689")
 			(effects

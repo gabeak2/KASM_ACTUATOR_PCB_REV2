@@ -3302,7 +3302,7 @@
 		)
 		(uuid "0cdb8f6d-f12e-4c96-95c0-e91d52976a8c")
 	)
-	(text "LDC1614\nSensors 0-3"
+	(text "LDC 0\nSensors 0-3"
 		(exclude_from_sim no)
 		(at 38.354 42.418 0)
 		(effects
@@ -3313,7 +3313,7 @@
 		)
 		(uuid "4479e547-ee98-4dc7-9e8f-2446ba973aaf")
 	)
-	(text "LDC1614\nSensors 4-7"
+	(text "LDC 1\nSensors 4-7"
 		(exclude_from_sim no)
 		(at 185.42 42.418 0)
 		(effects

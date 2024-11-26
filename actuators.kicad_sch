@@ -2912,9 +2912,19 @@
 		)
 		(uuid a2199eb7-7eac-46d8-a226-e6c4c47b61f7)
 	)
-	(text "Error Indicator LEDs"
+	(text "Only for U13 and U16 - routing was too dense to do for all channels"
 		(exclude_from_sim no)
-		(at 333.756 34.036 0)
+		(at 331.47 36.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f65e8b9-a4b6-4444-987b-37dcdb2f750b")
+	)
+	(text "Error Indicator LEDs\n"
+		(exclude_from_sim no)
+		(at 334.01 30.226 0)
 		(effects
 			(font
 				(size 5 5)
